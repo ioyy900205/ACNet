@@ -43,8 +43,8 @@ for x in context[1:]:
 
 print(len(nyuv2_frq))
 parser = argparse.ArgumentParser(description='RGBD Sementic Segmentation')
-parser.add_argument('--data-dir', default='/media/data/data02/nyuv2/depths/', metavar='DIR',
-                    help='path to dataset-D')
+# parser.add_argument('--data-dir', default='/media/data/data02/nyuv2/depths/', metavar='DIR',
+#                     help='path to dataset-D')
 parser.add_argument('--cuda', action='store_true', default=True,
                     help='enables CUDA training')
 parser.add_argument('-j', '--workers', default=4, type=int, metavar='N',

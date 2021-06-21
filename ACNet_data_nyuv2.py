@@ -14,8 +14,8 @@ image_h = 480
 image_w = 640
 
 
-train_file = '/media/data/data02/nyuv2/train.txt'
-test_file = '/media/data/data02/nyuv2/test.txt'
+train_file = '/media/data/data02/SUN_RGBD_2/train13.txt'
+test_file = '/media/data/data02/SUN_RGBD_2/test13.txt'
 
 def make_dataset_fromlst(listfilename):
     """
